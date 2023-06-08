@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About || Starter</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <script src="https://kit.fontawesome.com/0aea0e9e2f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="js/app.js" async></script>
+</head>
+
+<body class="aboutPage">
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="assets/logo.svg" alt="">
+        </a>
+        <button class="barsBtn"><i class="fa-solid fa-bars"></i></button>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="tags.html">Tags</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+        </ul>
+      </div>
+    </div>
+    <button onclick="location.href = './contact.html';" class="contactBtn">Contact</button>
+  </nav>
+  <main class="page">
+    <header class="about">
+      <div class="aboutText">
+        <h1>Savor the Flavors: Exploring Culinary Delights</h1>
+        <p>Welcome to Simply Recipes, your go-to destination for easy and delicious recipes that bring joy to your
+          kitchen and table. We believe that cooking should be a delightful and accessible experience for everyone,
+          whether you're a seasoned chef or a beginner in the culinary world.</p>
+        <button onclick="location.href = './contact.html';" class="contactBtn">Contact</button>
+      </div>
+      <div class="headerImg">
+        <img src="assets/about.jpeg" alt="">
+      </div>
+    </header>
+
+    <section class="content">
+      <h1>Look at our recipes!</h1>
+      <section class="content-recipes">
+        <a href="single-recipe.html">
+          <img src="assets/recipes/recipe-1.jpeg" alt="">
+          <h5>Carne Asada</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+        <a href="single-recipe.html">
+          <img src="assets/recipes/recipe-2.jpeg" alt="">
+          <h5>Greek Ribs</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+        <a href="single-recipe.html">
+          <img src="assets/recipes/recipe-3.jpeg" alt="">
+          <h5>Vegetable Soup</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+        <a href="single-recipe.html">
+          <img src="assets/recipes/recipe-4.jpeg" alt="">
+          <h5>Banana Pancakes</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+      </section>
+    </section>
+  </main>
+  <footer>&#169; 2022 <span>Przemysław Botwina</span></footer>
+</body>
+
+</html>
