@@ -180,10 +180,11 @@ footer {
   font-size: 18px;
   margin-top: auto;
 }
-footer span {
+footer a {
   display: block;
   margin-left: 10px;
-  color: #6d67dd;
+  color: #958fff;
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
@@ -665,6 +666,7 @@ footer span {
   border-radius: 4px;
   padding: 8px 40px;
   margin-top: 10px;
+  cursor: pointer;
 }
 .contact-page .page .content {
   justify-content: center;
