@@ -11,7 +11,7 @@ The website is about various recipes. The page is nicely responsive, with good c
 
 ## Links
 
-- GitHub repository: [https://github.com/WersV/simply-recipes/settings/pages](https://github.com/WersV/simply-recipes/settings/pages)
+- GitHub repository: [https://github.com/WersV/simply-recipes](https://github.com/WersV/simply-recipes)
 - GitHub Pages: [https://wersv.github.io/simply-recipes/](https://wersv.github.io/simply-recipes/)
 
 ## Author
