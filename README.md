@@ -1,6 +1,6 @@
 # Simply recipes website
 
-## Overvoew
+## Overview
 
 The website is about various recipes. The page is nicely responsive, with good contrast, and is friendly for people with disabilities. The main focus was placed on SASS styling and HTML, with only a few lines of JavaScript.
 
